@@ -104,7 +104,7 @@ export default function Footer() {
       {/* Bottom */}
       <div className="max-w-7xl mx-auto px-6 mt-16 border-t border-white/20 pt-6 flex flex-col md:flex-row justify-between text-sm text-gray-300">
         <p className="order-2 md:order-1 mt-4 md:mt-0">
-          © {new Date().getFullYear()} Waters Boreholes and Drilling. All rights reserved.
+          © {new Date().getFullYear()} Orchik Boreholes. All rights reserved.
         </p>
         <div className="flex gap-6 order-1 md:order-2">
           <Link href="/privacy" className="hover:text-white transition">Privacy Policy</Link>

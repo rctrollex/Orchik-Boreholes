@@ -11,6 +11,7 @@ export default function MobileNav() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
     { href: "/services", label: "Services" },
+    { href: "/contact", label: "Contact Us" },
   ]
 
   return (
@@ -58,7 +59,7 @@ export default function MobileNav() {
               onClick={() => setIsOpen(false)}
               className="w-full py-3 rounded-xl font-semibold text-lg text-white bg-[#1E6091] hover:bg-[#165077] shadow-md transition flex justify-center items-center"
             >
-              Contact Us
+              Request Free Quote
             </Link>
           </div>
 

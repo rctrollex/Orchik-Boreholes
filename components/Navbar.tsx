@@ -7,6 +7,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/about", label: "About Us" },
     { href: "/services", label: "Services" },
+    { href: "/contact", label: "Contact Us" },
   ];
 
   return (
@@ -44,7 +45,7 @@ export default function Navbar() {
               href="/contact"
               className="px-6 py-3 rounded-xl font-semibold text-white bg-[#1E6091] hover:bg-[#165077] transition shadow-md"
             >
-              Contact Us
+              Request Free Quote
             </Link>
           </div>
         </div>
